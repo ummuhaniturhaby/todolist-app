@@ -13,4 +13,6 @@ formTask.addEventListener("submit", (event) => {
     taskList.innerHTML = inputForm.value;
 
     wrapperList.append(taskList);
+
+    inputForm.value = "";
 });
